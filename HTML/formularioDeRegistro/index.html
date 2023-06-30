@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <br>
+        <br>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo">
+        <br>
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña">
+        <br>
+        <br>
+        <label for="confirmarContraseña">Confirmar Contraseña:</label>
+        <input type="password" id="confirmarContraseña">
+        <br>
+        <br>
+        <label for="cumpleaños">Cumpleaños:</label>
+        <input type="date" id="cumpleaños">
+        <br>
+        <br>
+        <label for="selecciónGénero">Masculino</label>
+        <input type="radio" id="selecciónGénero">
+        <label for="selecciónGénero2">Femenino</label>
+        <input type="radio" id="selecciónGénero2">
+        <label for="selecciónGénero3">Otros</label>
+        <input type="radio" id="selecciónGénero3">
+        <br>
+        <br>
+        <p>Agregue una breve descripción sobre su persona:</p>
+        <textarea name="descripcionPropia" cols="30" rows="10"></textarea>
+        <br>
+        <label for="seleccionaTuFav">Lenguaje Favorito:</label>
+        <select name="opciones" id="seleccionaTuFav">
+            <option value="java">Java</option>
+            <option value="python">Python</option>
+            <option value="php">PHP</option>
+            <option value="javascript">JavaScript</option>
+            <option value="c++">C++</option>
+            <option value="c#">C#</option>
+        </select>
+        <br>
+        <br>
+        <label for="enviar"></label>
+        <input type="submit" id="enviar">
+
+    </form>
+</body>
+
+</html>
