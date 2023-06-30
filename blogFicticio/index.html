@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="bandaDeRockQueen" content="width=device-width, initial-scale=1.0">
+    <title>Blog Ficticio</title>
+    <link rel="icon" href="/icon/guitarra-electrica.png">
+    <style>
+        table,
+        thead,
+        tbody,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+            width: 300px;
+            height: 50px;
+        }
+
+        img {
+            width: 700px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Queen</h1>
+    <img src="/img/Queen-Live-Aid-Concert@2000x1500-1200x900.jpg" alt="Queen - Foto en concierto Live Aid 1985 ">
+    <p>Banda de rock británica que gozó de gran fama desde mediados de los setenta y durante toda la década de los
+        ochenta; la espectacularidad y dinamismo de sus actuaciones y la asimilación al rock de tendencias jazzísticas,
+        sinfónicas y operísticas fueron algunas de las claves de su éxito, tan abrumador que sus discos fueron
+        superventas incluso después del fallecimiento en 1991 de su líder, el cantante Freddie Mercury. Creado en 1970,
+        el grupo estuvo formado por Freddie Mercury (voz), Brian May (guitarra), Roger Taylor (batería) y John Deacon
+        (bajo).</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Álbum</th>
+                <th>Año</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sheer Heart Attack</td>
+                <td>1974</td>
+            </tr>
+            <tr>
+                <td>A Night at the Opera</td>
+                <td>1975</td>
+            </tr>
+            <tr>
+                <td>Hot Space</td>
+                <td>1982</td>
+            </tr>
+            <tr>
+                <td>A Kind of Magic</td>
+                <td>1986</td>
+            </tr>
+            <tr>
+                <td>Innuendo</td>
+                <td>1991</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <ul>
+        <li>1973 - Queen I Tour </li>
+        <li>1975/1976 - A Night at the Opera Tour </li>
+        <li>1980/1981 - The Game Tour </li>
+    </ul>
+    <div>
+        <p> Mirá el video de Queen en el concierto Live Aid 1985 en el Estadio Wembley (Londres, Inglaterra) haciendo
+            click
+            <a href="https://youtu.be/bToG3hKX5nM">aquí</a>
+            .
+        </p>
+    </div>
+
+    <h2>
+        A continuación, te invitamos a completar la siguiente encuesta:
+    </h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+
+        <br> <br>
+
+        <label for="apodo">Apodo/Sobrenombre:</label>
+        <input type="text" id="apodo">
+
+        <br> <br>
+
+        <label for="correo">Email:</label>
+        <input type="email" id="correo">
+
+        <h3>Del 1 al 10, ¿Cuánto te gusta Queen?</h3>
+        <label for="opciones">Elige:</label>
+        <select name="cuantoTeGustaDelUnoAlDiez" id="opciones">
+            <option value="unoAlCuatro">1-4</option>
+            <option value="cuatroAlSeis">4-6</option>
+            <option value="seisAlOcho">6-8</option>
+            <option value="nueveDiez">9-10</option>
+        </select>
+
+        <br> <br>
+
+
+        <h3>¿Cuál es tu integrante favorito de la banda?</h3>
+        <label for="integranteFav">Freddie Mercury</label>
+        <input type="radio" id="integranteFav">
+        <label for="integranteFav2">Brian May</label>
+        <input type="radio" id="integranteFav2">
+        <label for="integranteFav3">Roger Taylor</label>
+        <input type="radio" id="integranteFav3">
+        <label for="integranteFav4">John Deacon</label>
+        <input type="radio" id="integranteFav4">
+
+
+        <br> <br>
+
+        <h3>¿Cuál es tu canción favorita?</h3>
+        <label for="cancionFav">Bohemian Rhapsody</label>
+        <input type="checkbox" id="cancionFav">
+        <label for="cancionFav2">We Will Rock You</label>
+        <input type="checkbox" id="cancionFav2">
+        <label for="cancionFav3">Somebody To Love</label>
+        <input type="checkbox" id="cancionFav3">
+        <label for="cancionFav4">Friends Will Be Friends</label>
+        <input type="checkbox" id="cancionFav4">
+
+        <br> <br>
+
+        <p>Si tu canción favorita de Queen no apareció en la lista anterior, puede ingresarla aquí:</p>
+        <textarea name="otraCancionFav" id="otraCancionFavorita" cols="75" rows="5"></textarea>
+
+        <br> <br>
+
+        <label for="enviar"></label>
+        <input type="submit" id="enviar">
+    </form>
+</body>
+
+</html>
