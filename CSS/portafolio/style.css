@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: 1200px;
+    padding: 10px;
+}
+
+.principal {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.secundario {
+    display: inline-block;
+    margin-left: 720px;
+    margin-bottom: 10px;
+}
+
+main {
+    display: inline-block;
+    background: linear-gradient(#211015, #6f5964);
+    width: 1220px;
+}
+
+#photoOfMe {
+    outline: 6px solid #c0c0c0;
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#box1 {
+    display: inline-block;
+    width: 630px;
+    margin-left: 50px;
+}
+
+.about {
+    background: linear-gradient(#b1b0b5, #888694);
+    color: white;
+}
+
+#box2 {
+    display: inline-block;
+    width: 300px;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.laMode {
+    background: linear-gradient(#b1b0b5, #888694);
+    color: white;
+}
