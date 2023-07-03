@@ -39,8 +39,10 @@ main {
 
 #box1 {
     display: inline-block;
-    width: 100px;
-    margin-left: 530px;
+    width: 640px;
+    text-align: left;
+    vertical-align: top;
+    margin-left: 35px;
 }
 
 .about {
@@ -48,6 +50,47 @@ main {
     color: white;
     display: inline-block;
     margin-top: 30px;
-    width: 640px;
+    width: 654px;
+    padding: 7px;
+}
+
+.box1Content {
+    background-color: #ebe2ea;
+    width: 654px;
+    padding: 7px;
+}
+
+.p1 {
+    width: 644px;
+    text-align: left;
+    vertical-align: auto;
     padding: 5px;
+}
+
+#box2 {
+    display: inline-block;
+    margin-left: 30px;
+    width: 350px;
+}
+
+.about2 {
+    background: linear-gradient(#b1b0b5, #888694);
+    color: white;
+    display: inline-block;
+    margin-top: 30px;
+    width: 350px;
+    padding: 7px;
+    background-color: #ebe2ea;
+}
+
+.laMode {
+    width: 364px;
+    height: 160px;
+    background-color: #ebe2ea;
+}
+
+.box2Content {
+    background-color: #ebe2ea;
+    width: 350px;
+    padding: 7px;
 }
