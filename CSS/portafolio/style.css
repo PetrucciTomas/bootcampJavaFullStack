@@ -29,7 +29,7 @@ main {
 }
 
 #photoOfMe {
-    outline: 6px solid #c0c0c0;
+    border: 6px solid #c0c0c0;
     display: inline-block;
     width: 450px;
     height: 300px;
@@ -39,23 +39,15 @@ main {
 
 #box1 {
     display: inline-block;
-    width: 630px;
-    margin-left: 50px;
+    width: 100px;
+    margin-left: 530px;
 }
 
 .about {
     background: linear-gradient(#b1b0b5, #888694);
     color: white;
-}
-
-#box2 {
     display: inline-block;
-    width: 300px;
-    margin-left: 22px;
-    margin-top: 20px;
-}
-
-.laMode {
-    background: linear-gradient(#b1b0b5, #888694);
-    color: white;
+    margin-top: 30px;
+    width: 640px;
+    padding: 5px;
 }

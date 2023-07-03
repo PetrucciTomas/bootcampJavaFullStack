@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#everything {
+    width: 970px;
+    margin: 0px auto 0px auto;
+}
+
+#sectionOne {
+    background-color: #245076;
+}
+
+.pythonLogo {
+    width: 350px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.text {
+    display: inline-block;
+    margin-left: 780px;
+    color: white;
+}
