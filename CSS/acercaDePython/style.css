@@ -3,7 +3,12 @@
     padding: 0;
 }
 
+#everything {
+    margin-left: 180px;
+}
+
 #parte1 {
+    display: inline-block;
     width: 970px;
     margin: 0px auto 0px auto;
     background-color: #245076;
@@ -19,13 +24,13 @@
 .boxTextForm {
     display: inline-block;
     vertical-align: top;
-    margin-top: 20px;
-    margin-left: 390px;
+    margin-left: 280px;
+    margin-top: 8px;
 }
 
 .textoArriba {
-    margin-left: 30px;
-    margin-bottom: 4px;
+    margin-left: 124px;
+    margin-bottom: 6px;
     color: white;
 }
 
@@ -35,9 +40,23 @@
 
 .formulario {
     background-color: #444444;
-    padding: 15px;
+    padding: 15px 45px 15px 45px;
     border-radius: 10px;
     box-shadow: 2px 2px black;
+}
+
+#search {
+    padding: 15px;
+    text-align: center;
+}
+
+#button {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #245076;
+    color: white;
+    border: 2px solid white;
+    margin-left: 3px;
 }
 
 nav {
@@ -56,4 +75,143 @@ h2 {
     display: inline-block;
     color: white;
     padding: 5px 12px 5px 12px;
+}
+
+#middleContentMain {
+    display: inline-block;
+}
+
+#middleContent {
+    display: inline-block;
+}
+
+#lista1 {
+    margin-left: 170px;
+    margin-top: 42px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ul1 {
+    color: #f8cf31;
+}
+
+.ul1-1 {
+    color: white;
+}
+
+#middleContent2 {
+    width: 500px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 80px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 10px 10px 26px 10px;
+}
+
+.phrase {
+    color: #f8cf31;
+}
+
+#parte2 {
+    width: 970px;
+    background-color: white;
+}
+
+main {
+    display: inline-block;
+}
+
+#leftSide {
+    display: inline-block;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#lista2 {
+    margin-left: 40px;
+    list-style-type: square;
+}
+
+.ul2 {
+    color: black;
+}
+
+.p-ul2 {
+    color: #87b4db;
+}
+
+.titlePT2 {
+    border-top: 5px solid #73a7d5;
+    border-top-style: solid;
+    border-radius: 3px;
+}
+
+#aTagPT2 {
+    text-decoration: none;
+    color: #87b4db;
+}
+
+#rightSide {
+    display: inline-block;
+    width: 400px;
+    margin-left: 60px;
+    margin-top: 40px;
+    text-align: center;
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+
+#lista3 {
+    list-style-type: square;
+}
+
+.ul3 {
+    color: black;
+}
+
+.p-ul3 {
+    color: #87b4db;
+}
+
+#parte3 {
+    width: 970px;
+    background: linear-gradient(#25537a, #2f6b9f);
+}
+
+footer {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.pFooter1 {
+    display: inline-block;
+    margin-left: 200px;
+    color: #83b5e1;
+    font-size: large;
+}
+
+.pFooter2 {
+    display: inline-block;
+    margin-left: 30px;
+    color: #83b5e1;
+    font-size: large;
+}
+
+.pFooter3 {
+    display: inline-block;
+    margin-left: 30px;
+    color: #83b5e1;
+    font-size: large;
+}
+
+.pFooter4 {
+    margin-left: 380px;
+    margin-top: 30px;
+    font-size: small;
+    color: #83b5e1;
 }
