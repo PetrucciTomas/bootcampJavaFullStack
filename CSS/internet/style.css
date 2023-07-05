@@ -38,15 +38,23 @@
 
 header {
     background: linear-gradient(#26679f, #4f81ab);
-    padding: 10px 0px 10px 18px;
+    padding: 10px 0px 10px 22px;
     color: white;
 }
 
-/* Todo del subtítulo para abajo */
-
-#parteDelMedioYAbajo {
-    background: linear-gradient(#e3e3e3, #ffffff);
+#todoDespuesDelHeader {
+    background: linear-gradient(#e3e3e3, #f9f9f9, #ffffff);
 }
+
+/* Barra de navegación del lado izquierdo */
+
+#navegationBar {
+    width: 250px;
+    display: inline-block;
+    padding-bottom: 100px;
+}
+
+/* Primera parte de la barra de navegación*/
 
 .littleTitle1 {
     display: inline-block;
@@ -64,4 +72,223 @@ header {
     color: red;
     font-size: x-large;
     margin-left: 6px;
+}
+
+.parrafoLittleTitle1 {
+    margin-left: 8px;
+}
+
+.littleLittleText1 {
+    display: inline-block;
+}
+
+.colorText1 {
+    display: inline-block;
+    color: #22659e;
+    margin-left: 4px;
+}
+
+.colorText2 {
+    display: inline-block;
+    color: #22659e;
+}
+
+.botones1 {
+    margin-left: 25px;
+    display: inline;
+}
+
+.buttonSection1-1 {
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    background-color: #4a84b5;
+    color: white;
+    display: inline;
+}
+
+.buttonSection1-2 {
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    background-color: #ed8d11;
+    color: white;
+    display: inline;
+    margin-top: 4px;
+    margin-left: 15px;
+}
+
+#sectionOne {
+    width: 250px;
+    display: block;
+    border-color: #d3d3d3;
+    border-bottom: 1px solid;
+    padding-bottom: 18px;
+}
+
+#sectionTwo {
+    display: block;
+    width: 250px;
+}
+
+/* Segunda parte de la barra de navegación */
+
+.backgroundPhoto {
+    position: absolute;
+    width: 250px;
+    margin-top: 20px;
+}
+
+.textImg {
+    text-align: center;
+    width: 200px;
+    position: absolute;
+    color: white;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-top: 46px;
+}
+
+.ninjaPhoto {
+    width: 100px;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 175px;
+}
+
+.buttonSection2 {
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px;
+    background: linear-gradient(#1485a9, #6ccfdf);
+    color: white;
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 46px;
+}
+
+/* Todo el contenido del Main */
+
+/* 1er sección del Main */
+
+#mainThings {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#sectionOneMain {
+    display: block;
+    border-color: #d3d3d3;
+    border-bottom: 1px solid;
+    padding-bottom: 18px;
+}
+
+.sectionOnePartOne {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.img1Main {
+    width: 30px;
+    display: inline-block;
+}
+
+.img1MainText {
+    display: inline-block;
+    vertical-align: top;
+    font-size: large;
+    margin-top: 8px;
+    color: #4079a9;
+    justify-content: space-between;
+}
+
+.sectionOnePartTwo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img2Main {
+    width: 52px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+
+.sectionOnePartThree {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2px;
+    margin-left: 6px;
+    padding-right: 86px;
+}
+
+.number {
+    font-size: xx-large;
+    color: #00c0df;
+}
+
+/* 2da sección del Main */
+
+#sectionTwoMain {
+    position: absolute;
+    width: 750px;
+}
+
+.textOneSectionTwo {
+    display: inline-block;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+
+.textTwoSectionTwo {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 6px;
+}
+
+.img3Main {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+/* 3ra sección del Main */
+
+#sectionThreeMain {
+    position: absolute;
+    width: 750px;
+    margin-left: 12px;
+    margin-top: 310px;
+}
+
+.listaSeccionTres {
+    margin-left: 40px;
+}
+
+/* 4ta sección del Main */
+
+#sectionFourMain {
+    display: inline-block;
+    position: absolute;
+    width: 660px;
+    margin-left: 20px;
+    margin-top: 485px;
+    padding: 16px;
+    border: 6px solid #0085e0;
+}
+
+.img4Main {
+    width: 110px;
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+.textSectionFour {
+    display: inline-block;
+}
+
+.text1SectionFour {
+    width: 480px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 30px;
 }
