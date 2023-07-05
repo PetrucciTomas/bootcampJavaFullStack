@@ -12,9 +12,8 @@
 }
 
 .imgInternet {
-    display: inline-block;
+    position: absolute;
     width: 100px;
-    margin-top: 5px;
     margin-left: 14px;
 }
 
@@ -22,6 +21,8 @@
     color: #474747;
     font-size: xx-large;
     display: inline-block;
+    margin-left: 110px;
+    margin-bottom: 10px;
 }
 
 .segundoh2 {
@@ -74,7 +75,7 @@ header {
     margin-left: 6px;
 }
 
-.parrafoLittleTitle1 {
+.parrafoLittleTitle {
     margin-left: 8px;
 }
 
@@ -238,6 +239,15 @@ header {
     justify-content: space-around;
 }
 
+.subtitleOne {
+    color: #22659e;
+}
+
+.aColor {
+    color: #54b8c8;
+    text-decoration: none;
+}
+
 .textTwoSectionTwo {
     display: inline-block;
     margin-left: 50px;
@@ -259,6 +269,10 @@ header {
     margin-top: 310px;
 }
 
+.subtitleTwo {
+    color: #22659e;
+}
+
 .listaSeccionTres {
     margin-left: 40px;
 }
@@ -275,6 +289,10 @@ header {
     border: 6px solid #0085e0;
 }
 
+.subtitleThree {
+    color: #22659e;
+}
+
 .img4Main {
     width: 110px;
     display: inline-block;
@@ -282,11 +300,11 @@ header {
     margin-left: 8px;
 }
 
-.textSectionFour {
+.boxSectionFour {
     display: inline-block;
 }
 
-.text1SectionFour {
+.textSectionFour {
     width: 480px;
     display: inline-block;
     vertical-align: top;
