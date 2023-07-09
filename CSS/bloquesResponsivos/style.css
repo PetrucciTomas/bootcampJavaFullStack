@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    background-color: silver;
+    width: 970px;
+    margin: 0px auto;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#arriba {
+    background-color: green;
+    min-height: 150px;
+    display: block;
+    margin: 20px 20px 20px;
+    padding: 20px 0px 0px 0px;
+}
+
+#navigation {
+    background-color: blue;
+    min-height: 300px;
+    width: 200px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 63px;
+}
+
+#maincontent {
+    background-color: red;
+    min-height: 400px;
+    width: 700px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    padding: 5px 5px 5px 5px;
+}
+
+.subcontents {
+    background-color: yellow;
+    min-height: 200px;
+    width: 210px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+#advertisement {
+    background-color: purple;
+    min-height: 120px;
+    width: 660px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Phone */
+    #arriba {
+        background-color: green;
+        min-height: 150px;
+        width: 308px;
+        display: block;
+        margin: 20px 20px 20px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #navigation {
+        background-color: blue;
+        min-height: 300px;
+        width: 200px;
+        display: none;
+        margin-left: 20px;
+        margin-bottom: 63px;
+    }
+
+    #maincontent {
+        background-color: red;
+        min-height: 400px;
+        width: 300px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 2px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .subcontents {
+        background-color: yellow;
+        min-height: 200px;
+        width: 270px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+
+    .sub1 {
+        display: inline-block;
+        background-color: yellow;
+    }
+
+    .sub2 {
+        display: block;
+    }
+
+    #advertisement {
+        background-color: purple;
+        width: 270px;
+        min-height: 120px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 481px) {
+
+    /* Tablet */
+    #arriba {
+        background-color: green;
+        min-height: 150px;
+        width: 552px;
+        display: block;
+        margin: 20px 20px 20px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #navigation {
+        background-color: blue;
+        min-height: 300px;
+        width: 200px;
+        display: none;
+        margin-left: 20px;
+        margin-bottom: 63px;
+    }
+
+    #maincontent {
+        background-color: red;
+        min-height: 400px;
+        width: 542px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 2px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .subcontents {
+        background-color: yellow;
+        min-height: 200px;
+        width: 210px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+
+    .sub1 {
+        display: inline-block;
+        background-color: yellow;
+    }
+
+    .sub2 {
+        display: block;
+    }
+
+    #advertisement {
+        background-color: purple;
+        width: 450px;
+        min-height: 120px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    /* Desktop */
+    #arriba {
+        background-color: green;
+        min-height: 150px;
+        width: 934px;
+        display: block;
+        margin: 20px 20px 20px;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #navigation {
+        background-color: blue;
+        min-height: 300px;
+        width: 200px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 63px;
+    }
+
+    #maincontent {
+        background-color: red;
+        min-height: 400px;
+        width: 700px;
+        display: inline-block;
+        margin-left: 20px;
+        margin-bottom: 2px;
+        padding: 5px 5px 5px 5px;
+    }
+
+    .subcontents {
+        background-color: yellow;
+        min-height: 200px;
+        width: 210px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+
+    #advertisement {
+        background-color: purple;
+        min-height: 120px;
+        width: 660px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
